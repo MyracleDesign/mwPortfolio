@@ -11,7 +11,7 @@ const extractPlugin = new ExtractTextPlugin({
 
 module.exports = {
   entry: [
-    'babel-polyfill',
+    '@babel/polyfill',
     './src/js/app.js',
     './src/scss/main.scss',
     './src/vendors/mdb/scss/mdb.scss',
@@ -21,8 +21,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   module: {
-    rules: [
-      {
+    rules: [{
         enforce: 'pre',
         test: /\.js?$/,
         exclude: [/node_modules/, /vendors/],
@@ -34,14 +33,12 @@ module.exports = {
       {
         test: /\.js?$/,
         exclude: [/node_modules/, /vendors/],
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              presets: ['env', 'stage-0'],
-            },
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
           },
-        ],
+        }, ],
       },
       {
         test: /\.scss?$/,
