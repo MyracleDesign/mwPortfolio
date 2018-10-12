@@ -1,0 +1,48 @@
+#landing-page {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 1080px;
+  background: url(../img/lead.jpg);
+  background-size: cover;
+  padding: 15px;
+  overflow: hidden;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#landing-page-content {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#landing-page-content h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 0.9em;
+}
+
+#landing-page-content h2 {
+  color: #a0cfee;
+  font-weight: 500;
+  font-size: 2.25em;
+  margin-bottom: 15px;
+}
+
+#landing-page-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(33, 198, 243, 0.6);
+  z-index: 1;
+}
