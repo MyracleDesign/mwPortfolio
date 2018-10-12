@@ -10,6 +10,7 @@ const extractPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
+  watch: true,
   entry: [
     '@babel/polyfill',
     './src/js/app.js',
