@@ -2,8 +2,13 @@
 $fa-font-path: '~font-awesome/fonts';
 @import '~font-awesome/scss/font-awesome.scss';
 
+// Main Font from google
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
 // Bootstrap 4
 @import '~bootstrap/scss/bootstrap';
 
 // Your custom styles
 @import 'custom';
+
+@import 'landing-page';
