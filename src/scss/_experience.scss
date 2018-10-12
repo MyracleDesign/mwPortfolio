@@ -4,6 +4,10 @@
   border-bottom: 1px solid #dcd9d9;
 }
 
+.padding-top-15 {
+  padding-top: 15px;
+}
+
 .experience-item {
   position: relative;
   text-align: left;
@@ -36,9 +40,26 @@
 
 .side-card.first {
   border-right: 5px solid indigo;
-  height: 97%;
+  height: 100%;
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
+  right: -17px;
+  z-index: 999;
+}
+
+.side-card.last {
+  border-right: 5px solid indigo;
+  height: 18%;
+  position: absolute;
+  top: -24px;
+  right: -17px;
+  z-index: 999;
+}
+
+.side-card {
+  border-right: 5px solid indigo;
+  height: 100%;
+  position: absolute;
   right: -17px;
   z-index: 999;
 }
@@ -46,6 +67,10 @@
 .timeline .event:before,
 .timeline .event:after {
   position: absolute;
+}
+
+.event a {
+  color: black;
 }
 
 .event::before {
@@ -59,7 +84,8 @@
   position: absolute;
 }
 
-.marker {
+.marker,
+.marker-start {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -74,6 +100,11 @@
 
 .marker svg {
   padding-top: 5px;
+  transform: scale(1.2, 1.2);
+}
+
+.marker-start svg {
+  padding-top: 3px;
   transform: scale(1.2, 1.2);
 }
 
