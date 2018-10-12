@@ -33,6 +33,7 @@
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
+  vertical-align: top;
 }
 
 #landing-page-overlay {
@@ -43,7 +44,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33, 198, 243, 0.6);
+  background: rgba(25, 129, 177, 0.7);
   z-index: 1;
 }
 
@@ -91,4 +92,33 @@
     opacity: 0.5;
     transform: scale(1, 1);
   }
+}
+
+// Rotating words for the h2 in the landing
+
+.word {
+  position: absolute;
+  width: 320px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

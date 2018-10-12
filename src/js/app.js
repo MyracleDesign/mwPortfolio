@@ -15,3 +15,4 @@ import './fa5';
 
 // Example
 import './example';
+import './headline';
