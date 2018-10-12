@@ -69,8 +69,12 @@
   position: absolute;
 }
 
-.event a {
-  color: black;
+.external-link {
+  font-size: 0.45em;
+}
+
+.external-link svg {
+  vertical-align: top;
 }
 
 .event::before {
