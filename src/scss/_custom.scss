@@ -8,6 +8,20 @@ html body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+* {
+  position: relative;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+
 // Bootstrap Material Hacks
 a.btn.btn-primary.btn-rounded {
   border-radius: 50px;
