@@ -10,8 +10,12 @@ import regular from '@fortawesome/fontawesome-free/js/regular';
 import brands from '@fortawesome/fontawesome-free/js/brands';
 
 // Populate FontAwesome 5 icon library
-library.add(solid);
-library.add(regular);
-library.add(brands);
+if (library) {
+  library.add(solid);
+  library.add(regular);
+  library.add(brands);
+}
 
-dom.watch();
+if (dom) {
+  dom.watch();
+}
