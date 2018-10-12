@@ -1,7 +1,7 @@
 {
-  "name": "mdb4-boilerplate",
+  "name": "mw-portfolio",
   "version": "1.0.0",
-  "description": "A complete Webpack boilerplate for Material Design for Bootstrap",
+  "description": "Portfolio of Max Weber",
   "main": "app.js",
   "scripts": {
     "build": "webpack --mode production",
