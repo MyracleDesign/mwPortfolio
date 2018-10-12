@@ -13,6 +13,9 @@ import '../vendors/mdb/js/mdb';
 // Fontawesome 5
 import './fa5';
 
+// Favicon Loader
+import './favicon';
+
 // Example
 import './example';
 import './headline';
