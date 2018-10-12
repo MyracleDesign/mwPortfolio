@@ -4,16 +4,40 @@ body {
   padding-right: env(safe-area-inset-right);
 }
 
+// Bootstrap Material Hacks
 a.btn.btn-primary.btn-rounded {
   border-radius: 50px;
 }
 
+// Animation for the rotating header
 .rotating-headline-container {
   margin-left: 10%;
   text-align: left;
 }
 
+// Avatar
 .avatar-small {
   border-radius: 50px;
   border: 1px solid indigo;
+}
+
+// Header options
+.heading {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+
+.heading:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  height: 1px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgb(137, 50, 199);
 }
