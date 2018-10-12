@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpellCraft/mdb4-boilerplate.git"
+    "url": "git+https://github.com/MyracleDesign/mwPortfolio"
   },
   "author": {
-    "name": "Arnt Oddvar Pedersen",
-    "email": "arnt.o.pedersen@gmail.com",
-    "url": "http://www.vext.no/co-workere/"
+    "name": "Max Weber",
+    "email": "weber.max.1988@gmail.com",
+    "url": "https://www.cv.tadweb.de/"
   },
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SpellCraft/mdb4-boilerplate/issues"
+    "url": "https://github.com/MyracleDesign/mwPortfolio/issues"
   },
-  "homepage": "https://github.com/SpellCraft/mdb4-boilerplate#readme",
+  "homepage": "https://github.com/MyracleDesign/mwPortfolio#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
