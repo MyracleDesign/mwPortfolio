@@ -1,14 +1,13 @@
-@media only screen and (max-width: 992px) {
-  #about {
-    text-align: center;
-  }
-
-  #about p {
-    text-align: left
-  }
-}
-
 #about {
+  text-align: center;
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.about-card {
+  min-height: 650px;
 }
